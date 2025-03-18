@@ -1,12 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   line-height: 1.6;
   background-color: #fff;
   color: #333;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
-
+/* NAVBAR */
 .navbar {
   transition: background-color 0.3s;
 }
@@ -23,13 +23,53 @@ body {
   text-decoration: underline;
 }
 
+/* HERO SECTION */
+.hero-section {
+  background: linear-gradient(to right, #1c1c1c, #3a3a3a);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
 
+.hero-section img {
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #ffc107;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* BUTTON */
+.btn-primary {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800;
+}
+
+/* GENERAL SECTIONS */
 section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   color: #343a40;
 }
-
 
 section p,
 section ul {
@@ -42,27 +82,7 @@ ul {
   padding-left: 20px;
 }
 
-
-.hero-section {
-  background-color: #f8f9fa;
-}
-
-.hero-section img {
-  border: 4px solid #343a40;
-}
-
-.hero-section h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #343a40;
-}
-
-.hero-section p {
-  font-size: 1.2rem;
-  color: #6c757d;
-}
-
-
+/* LINKS */
 a {
   color: #0d6efd;
   text-decoration: none;
@@ -72,10 +92,10 @@ a:hover {
   text-decoration: underline;
 }
 
-
+/* DARK MODE */
 .dark-mode {
   background-color: #000 !important;
-  color: red !important;
+  color: #eee !important;
 }
 
 .dark-mode .navbar {
@@ -92,4 +112,13 @@ a:hover {
 
 .dark-mode section h2 {
   color: red;
+}
+
+.dark-mode .hero-section {
+  background: linear-gradient(to right, #000, #222);
+}
+
+.dark-mode .btn-primary {
+  background-color: #ff5722;
+  color: white;
 }
