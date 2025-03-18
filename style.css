@@ -84,6 +84,43 @@ ul {
   padding-left: 20px;
 }
 
+/* UNIQUE SECTION COLORS */
+.about-section {
+  background-color: #fdf0f0;
+  color: #333;
+}
+
+.about-section h2 {
+  color: #d6336c;
+}
+
+.skills-section {
+  background-color: #f0f8ff;
+  color: #222;
+}
+
+.skills-section h2 {
+  color: #0d6efd;
+}
+
+.education-section {
+  background-color: #fef9e7;
+  color: #444;
+}
+
+.education-section h2 {
+  color: #f59f00;
+}
+
+.contact-section {
+  background-color: #f0fdf4;
+  color: #222;
+}
+
+.contact-section h2 {
+  color: #198754;
+}
+
 /* LINKS */
 a {
   color: #0d6efd;
@@ -123,4 +160,21 @@ a:hover {
 .dark-mode .btn-primary {
   background-color: #ff5722;
   color: white;
+}
+
+
+.dark-mode .about-section {
+  background-color: #2d0a0a;
+}
+
+.dark-mode .skills-section {
+  background-color: #0a1f2d;
+}
+
+.dark-mode .education-section {
+  background-color: #2d2a0a;
+}
+
+.dark-mode .contact-section {
+  background-color: #0a2d1a;
 }
